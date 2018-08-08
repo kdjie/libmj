@@ -4,9 +4,7 @@
 
 需要引入头文件：
 #include "libmj/Decks.h"
-
 #include "libmj/Hands.h"
-
 #include "libmj/Check.h"
 
 初使化成员或者全局对象：
