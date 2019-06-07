@@ -1,7 +1,7 @@
 # libmj
 
 这是一个经典的广东麻将牌库算法，下面提供的用法，是我从工程中摘录过来的，难免有不全或错误，希望读者能有个大概理解。
-
+```
 需要引入头文件：
 #include "libmj/Decks.h"
 #include "libmj/Hands.h"
@@ -45,3 +45,4 @@ EATCARDS_t eatHuCards, eatBuCards;
 bHu = check.canHu(eatHuCards);
 CARDS_t cardsPassBu;
 bBu = check.canBu(eatBuCards, cardsPassBu);
+```
